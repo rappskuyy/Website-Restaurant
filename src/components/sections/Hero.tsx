@@ -35,7 +35,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-110 transition-transform duration-100"
         style={{
           backgroundImage:
-            "url('/rairakahome.webp')",
+            "url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1920&auto=format&fit=crop')",
           transform: "scale(1.08)",
         }}
       >
@@ -71,9 +71,9 @@ export default function Hero() {
 
         {/* Main Heading with letter animation effect */}
         <h1 className="animate-on-scroll animate-fade-in-up animation-delay-200 opacity-0 font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl text-white font-semibold leading-[1.15] sm:leading-[1.1] mb-6 sm:mb-8 tracking-tight">
-          <span className="block">Warung</span>
+          <span className="block">Example</span>
           <span className="block mt-1 sm:mt-2 bg-linear-to-r from-coksu-light via-coksu to-coksu-light bg-clip-text text-transparent">
-            Jepang
+            Example
           </span>
         </h1>
 

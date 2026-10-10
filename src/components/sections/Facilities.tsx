@@ -50,20 +50,20 @@ const spaces = [
   {
     title: "Indoor Cozy Area",
     description: "Area dengan suasana santai yang mendukung aktivitas kerja ringan, diskusi, atau kumpul keluarga sambil menikmati hidangan.",
-    image: "",
+    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1200&auto=format&fit=crop",
     capacity: "50+ seats",
   },
   {
     title: "Outdoor Garden Space",
-    description: "Open space dengan meja komunal dan individual. Area terbuka yang nyaman untuk nongkrong, makan bersama, atau menikmati kopi dan kebab daging murni.",
-    image: "/pictabout.png",
-    capacity: "15 seats",
+    description: "Open space dengan meja komunal dan individual. Area terbuka yang nyaman untuk nongkrong, makan bersama, atau menikmati kopi dan hidangan lezat.",
+    image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=1200&auto=format&fit=crop",
+    capacity: "25+ seats",
   },
   {
-    title: "Ramen Area",
-    description: "Area khusus untuk menikmati ramen, disajikan hangat dan fresh. Cocok untuk makan cepat, takeaway, atau dinikmati langsung di edlewiss coffee dengan suasana santai.",
-    image: "/",
-    capacity: "8-12 people",
+    title: "Dining & Ramen Area",
+    description: "Area khusus untuk menikmati aneka hidangan hangat dan fresh, cocok untuk santap siang, makan malam, maupun ngemil santai.",
+    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=1200&auto=format&fit=crop",
+    capacity: "20+ seats",
   },
 ];
 
@@ -140,7 +140,7 @@ export default function Facilities() {
               Pilih <span className="text-coksu">Space</span> Lo
             </h3>
             <p className="animate-on-scroll animate-fade-in-up animation-delay-200 opacity-0 text-brown text-sm sm:text-base">
-              Berbagai area di Warjep
+              Berbagai area di Example
             </p>
           </div>
 
@@ -148,27 +148,27 @@ export default function Facilities() {
             {spaces.map((space, index) => (
               <div
                 key={space.title}
-                className="animate-on-scroll animate-fade-in-up opacity-0 group relative rounded-xl sm:rounded-2xl overflow-hidden"
+                className="animate-on-scroll animate-fade-in-up opacity-0 group relative rounded-xl sm:rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="aspect-4/5 sm:aspect-3/4">
+                <div className="relative h-72 sm:h-80 md:h-96 w-full overflow-hidden">
                   <img
                     src={space.image}
                     alt={space.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
-                </div>
-                <div className="absolute inset-0 bg-linear-to-t from-coffee via-coffee/20 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
-                  <span className="inline-block px-2 py-1 sm:px-3 sm:py-1 bg-coksu/90 text-white text-[10px] sm:text-xs rounded-full mb-2 sm:mb-3">
-                    {space.capacity}
-                  </span>
-                  <h4 className="font-serif text-lg sm:text-xl text-white font-semibold mb-1 sm:mb-2">
-                    {space.title}
-                  </h4>
-                  <p className="text-white/80 text-xs sm:text-sm line-clamp-2">
-                    {space.description}
-                  </p>
+                  <div className="absolute inset-0 bg-linear-to-t from-coffee via-coffee/30 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 text-left">
+                    <span className="inline-block px-3 py-1 bg-coksu text-white text-xs font-medium rounded-full mb-2 sm:mb-3 shadow-sm">
+                      {space.capacity}
+                    </span>
+                    <h4 className="font-serif text-lg sm:text-xl text-white font-semibold mb-1 sm:mb-2">
+                      {space.title}
+                    </h4>
+                    <p className="text-white/80 text-xs sm:text-sm line-clamp-2">
+                      {space.description}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}

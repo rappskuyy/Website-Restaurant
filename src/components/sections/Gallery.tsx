@@ -5,34 +5,29 @@ import { Instagram, ExternalLink } from "lucide-react";
 
 const galleryImages = [
   {
-    src: "/",
+    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1200&auto=format&fit=crop",
     alt: "Cozy cafe interior",
-    span: "col-span-2 row-span-2",
-    mobileSpan: "col-span-2 row-span-2",
+    span: "col-span-2 row-span-2 min-h-[260px] sm:min-h-[420px]",
   },
   {
-    src: "",
+    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop",
     alt: "Working at cafe",
-    span: "col-span-1 row-span-1",
-    mobileSpan: "col-span-1 row-span-1",
+    span: "col-span-1 row-span-1 min-h-[125px] sm:min-h-[200px]",
   },
   {
-    src: "",
+    src: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=800&auto=format&fit=crop",
     alt: "Coffee shop atmosphere",
-    span: "col-span-1 row-span-1",
-    mobileSpan: "col-span-1 row-span-1",
+    span: "col-span-1 row-span-1 min-h-[125px] sm:min-h-[200px]",
   },
   {
-    src: "",
+    src: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     alt: "Live Music Area",
-    span: "col-span-1 row-span-1",
-    mobileSpan: "col-span-1 row-span-1",
+    span: "col-span-1 row-span-1 min-h-[125px] sm:min-h-[200px]",
   },
   {
-    src: "",
+    src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=800&auto=format&fit=crop",
     alt: "Friends hanging out",
-    span: "col-span-1 row-span-1",
-    mobileSpan: "col-span-1 row-span-1",
+    span: "col-span-1 row-span-1 min-h-[125px] sm:min-h-[200px]",
   },
 ];
 
@@ -83,11 +78,11 @@ export default function Gallery() {
         </div>
 
         {/* Gallery Grid */}
-        <div className="animate-on-scroll animate-fade-in-up opacity-0 grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 auto-rows-[120px] sm:auto-rows-[200px]">
+        <div className="animate-on-scroll animate-fade-in-up opacity-0 grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 auto-rows-[125px] sm:auto-rows-[200px]">
           {galleryImages.map((image, index) => (
             <div
               key={index}
-              className={`${image.span} relative rounded-xl sm:rounded-2xl overflow-hidden cursor-pointer group`}
+              className={`${image.span} relative rounded-xl sm:rounded-2xl overflow-hidden cursor-pointer group shadow-sm hover:shadow-lg`}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >

@@ -32,7 +32,7 @@ export default function Footer() {
             <a href="#home" className="flex items-center gap-2 mb-4 sm:mb-6">
               <Coffee className="w-6 h-6 sm:w-8 sm:h-8 text-coksu" />
               <span className="font-serif text-xl sm:text-2xl font-semibold">
-                Warjep
+                Example
               </span>
             </a>
             <p className="text-white/70 leading-relaxed mb-4 sm:mb-6 max-w-sm text-sm sm:text-base">

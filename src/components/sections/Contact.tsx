@@ -206,7 +206,7 @@ export default function Contact() {
         <div className="animate-on-scroll animate-fade-in-up opacity-0 mt-10 sm:mt-16">
           <div className="relative rounded-xl sm:rounded-2xl overflow-hidden h-[250px] sm:h-[350px] lg:h-[400px]">
             <img
-              src="/rairakahome.webp"
+              src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=1200&auto=format&fit=crop"
               alt="Coffee shop interior"
               className="w-full h-full object-cover"
             />

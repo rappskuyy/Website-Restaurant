@@ -25,7 +25,7 @@ const menuItems = [
     description: "Signature blend dengan gula aren dan susu segar",
     price: "28.000",
     category: "Coffee",
-    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop",
     popular: true,
   },
   {
@@ -55,7 +55,7 @@ const menuItems = [
     description: "Pilihan: Orange, Watermelon, atau Mixed",
     price: "25.000",
     category: "Non-Coffee",
-    image: "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1613478223719-2ab802602423?q=80&w=800&auto=format&fit=crop",
   },
   {
     name: "Lemon Tea",
@@ -92,7 +92,7 @@ const menuItems = [
     description: "Pisang goreng crispy dengan madu",
     price: "20.000",
     category: "Snacks",
-    image: "https://images.unsplash.com/photo-1600335895229-6e75511892c8?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1528751014936-863e6e7a319c?q=80&w=800&auto=format&fit=crop",
   },
   // Main Course
   {
@@ -100,7 +100,7 @@ const menuItems = [
     description: "Nasi goreng spesial dengan telur dan ayam",
     price: "35.000",
     category: "Main Course",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=800&auto=format&fit=crop",
     popular: true,
   },
   {

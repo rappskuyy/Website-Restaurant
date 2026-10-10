@@ -38,10 +38,9 @@ export default function Navbar() {
   href="#home"
   className="flex items-center gap-1.5 sm:gap-2 group"
 >
-  <img
-    src=""
-    alt="Warjep Logo"
-    className="w-6 h-6 sm:w-8 sm:h-8 object-contain transition-transform duration-300 group-hover:scale-105"
+  <Coffee
+    aria-hidden="true"
+    className="w-6 h-6 sm:w-8 sm:h-8 text-coksu transition-transform duration-300 group-hover:scale-105"
   />
 
   <span
@@ -49,7 +48,7 @@ export default function Navbar() {
       isScrolled ? "text-brown-dark" : "text-white"
     }`}
   >
-    Warjep
+    Example
   </span>
 </a>
 

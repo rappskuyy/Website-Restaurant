@@ -73,7 +73,7 @@ export default function About() {
             <div className="hidden sm:block absolute -top-4 -left-4 w-full h-full border-2 border-coksu/20 rounded-2xl" />
             <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl">
               <img
-                src="/pictabout.png"
+                src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?q=80&w=1200&auto=format&fit=crop"
                 alt="Cozy cafe interior"
                 className="w-full h-[280px] sm:h-[400px] lg:h-[500px] object-cover hover:scale-105 transition-transform duration-700"
               />
@@ -92,7 +92,7 @@ export default function About() {
               Tempat Nongkrong yang Lo Cari
             </h3>
             <p className="text-brown text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
-              Warjep bukan cuma tempat makan biasa. Kita adalah "third place" — 
+              Example bukan cuma tempat makan biasa. Kita adalah &quot;third place&quot; — 
               tempat antara rumah dan kantor di mana lo bisa kerja produktif, ngobrol santai, 
               atau sekadar me-time dengan secangkir kopi hangat dan makanan yang lezat.
             </p>
